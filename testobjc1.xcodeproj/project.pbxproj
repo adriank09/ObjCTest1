@@ -16,6 +16,7 @@
 		761289D3263EEDE8001F8D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761289D2263EEDE8001F8D7E /* main.m */; };
 		761289DD263EEDE8001F8D7E /* testobjc1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761289DC263EEDE8001F8D7E /* testobjc1Tests.m */; };
 		761289E8263EEDE8001F8D7E /* testobjc1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761289E7263EEDE8001F8D7E /* testobjc1UITests.m */; };
+		761289F626401F38001F8D7E /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 761289F526401F37001F8D7E /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		761289E3263EEDE8001F8D7E /* testobjc1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testobjc1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761289E7263EEDE8001F8D7E /* testobjc1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testobjc1UITests.m; sourceTree = "<group>"; };
 		761289E9263EEDE8001F8D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761289F526401F37001F8D7E /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				761289CE263EEDE8001F8D7E /* LaunchScreen.storyboard */,
 				761289D1263EEDE8001F8D7E /* Info.plist */,
 				761289D2263EEDE8001F8D7E /* main.m */,
+				761289F526401F37001F8D7E /* TestClass.m */,
 			);
 			path = testobjc1;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761289F626401F38001F8D7E /* TestClass.m in Sources */,
 				761289C8263EEDE5001F8D7E /* ViewController.m in Sources */,
 				761289C2263EEDE5001F8D7E /* AppDelegate.m in Sources */,
 				761289D3263EEDE8001F8D7E /* main.m in Sources */,
